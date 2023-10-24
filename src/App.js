@@ -81,7 +81,7 @@ const Quiz = () => {
         <div className="result">
           <h3>Result</h3>
           <p>
-            Congrats!  You got {result.correctAnswers} question right out of {result.score} 😃!
+            Congrats!  You got {result.score} question right out of {result.score} 😃!
           </p>
         </div>
       )}
